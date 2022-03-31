@@ -10,7 +10,7 @@ From an architecture point of view, CloudBAM consists of;
 - Azure Log Analytics Workspace
 - Azure Automation
 
-![alt text](https://github.com/MSEndpointMgr/CloudBAM/blob/main/Screenshots/CloudBAMArchitecture.jpg)
+![architecture overview](https://github.com/MSEndpointMgr/CloudBAM/blob/main/Screenshots/CloudBAMArchitecture.jpg)
 
 ### The solution as a whole has three parts
 
@@ -20,6 +20,14 @@ From an architecture point of view, CloudBAM consists of;
    - Optional component to search the archive and abstract access from Azure AD Roles.
  - LogAnalytics Workspace
    - A required component if you wish to have the portal, as all logging and auditing is done through LogAnalytics.
+
+## CloudBAM Portal ##
+
+The portal allows the user to search for a specific recovery key and/or search the entire archive using just the first few digits of a key.
+> :warning: The portal is still undergoing heaby development, expect the first search to take at least 30-40 seconds.
+> RBAC is currently only controllable through access to the Enterprise App created by the Function app provisioning.
+
+![Recovery Key search in the portal](https://github.com/MSEndpointMgr/CloudBAM/blob/main/Screenshots/CloudBAM.jpg)
 
 ## Reporting ## 
 As CloudBAM is based in Azure, reporting is done via integration with Log Analytics. Below is a screenshot of the reporting dashboad for CloudBAM, providing the following details
