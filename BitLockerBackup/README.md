@@ -2,6 +2,8 @@
 
 Azure Automation solution for unattended archival of BitLocker keys from Azure AD to Azure KeyVault secrets.
 
+> :warning: This code is very early alpha release - documentation and features are incomplete - PR's welcome.
+
 ## Quick and dirty install guide (might be missing a few things)
 
 - Create a Service Account (eg. SA_BitLockerBackup@tenant.onmicrosoft.com)
