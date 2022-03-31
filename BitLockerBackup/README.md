@@ -5,7 +5,7 @@ Azure Automation solution for unattended archival of BitLocker keys from Azure A
 ## Quick and dirty install guide (might be missing a few things)
 
 - Create a Service Account (eg. SA_BitLockerBackup@tenant.onmicrosoft.com)
-- - Assign the role: Cloud device administrator
+  - Assign the role: Cloud device administrator
 - Create new Resource group
 - Add Azure KeyVault to RG (Call it KV-BitlockerBackup or update the PowerShell code accordingly)
 - - Configure KV to use RBAC model
