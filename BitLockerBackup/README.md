@@ -1,6 +1,7 @@
 # CloudBAM Bitlocker Backup
 
 Azure Automation solution for unattended archival of BitLocker keys from Azure AD to Azure KeyVault secrets.
+Can be complemented by the CloudBAM Portal, but also run as a standalone archival solution if so required.
 
 > :warning: This code is very early alpha release - documentation and features are incomplete - PR's welcome.
 
