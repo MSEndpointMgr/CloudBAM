@@ -22,8 +22,7 @@
     MIT License, feel free to distribute and use as you like, leave author information.
 #>
 
-#Requires -Version 3
-#Requires -RunAsAdministrator
+#Requires -Modules Az.Accounts,Az.KeyVault,MSAL.PS,MSGraphRequest
 
 #region declarations
 $connection = Get-AutomationConnection -Name AzureRunAsConnection
