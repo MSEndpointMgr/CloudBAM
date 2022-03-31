@@ -3,6 +3,7 @@ CloudBAM is an Azure based cloud solution providing MBAM style functionality. Th
 
 > :warning: This code is very early alpha release - documentation and features are incomplete - PR's welcome.
 > This is a community solution, no official support is provided, but the solution is free to be used in production but not to be sold in any way.
+> CloudBAM is a project run by Michael Mardahl and Maurice Daly
 
 From an architecture point of view, CloudBAM consists of;
 
