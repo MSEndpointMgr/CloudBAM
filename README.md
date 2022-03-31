@@ -20,5 +20,5 @@ As CloudBAM is based in Azure, reporting is done via integration with Log Analyt
 
 ![alt text](https://github.com/MSEndpointMgr/CloudBAM/blob/main/Screenshots/Screenshot.jpg)
 
-In the reporting folder you will find JSON code
+You can find the dashboard JSON code in the Reporting folder - https://github.com/MSEndpointMgr/CloudBAM/tree/main/Reporting
 
