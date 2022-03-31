@@ -2,6 +2,7 @@
 CloudBAM is an Azure based cloud solution providing MBAM style functionality. The solution is aimed to be used as a suplementary solution for ensuring BitLocker recovery keys are available outside of Active / Azure Active Directory, while also ensuring that you can securely deliver BitLocker keys through limitation of access to users, and the use of multi-factor authentication.
 
 > :warning: This code is very early alpha release - documentation and features are incomplete - PR's welcome.
+> This is a community solution, no official support is provided, but the solution is free to be used in production but not to be sold in any way.
 
 From an architecture point of view, CloudBAM consists of;
 
