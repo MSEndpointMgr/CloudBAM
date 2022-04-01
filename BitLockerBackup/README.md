@@ -5,7 +5,7 @@ Can be complemented by the CloudBAM Portal, but also run as a standalone archiva
 
 > :warning: This code is very early alpha release - documentation and features are incomplete - PR's welcome.
 
-## Quick and dirty install guide (might be missing a few things)
+## Quick and dirty install guide (might be missing a few things, go fish)
 
 - Create a Service Account (eg. SA_BitLockerBackup@tenant.onmicrosoft.com)
   - Assign the role: Cloud device administrator
