@@ -7,10 +7,10 @@ CloudBAM is an Azure based cloud solution providing MBAM style functionality. Th
 
 From an architecture point of view, CloudBAM consists of;
 
-- ###Azure KeyVault
-- ####Azure Function App
-- ####Azure Log Analytics Workspace
-- ####Azure Automation
+- ### Azure KeyVault
+- #### Azure Function App
+- #### Azure Log Analytics Workspace
+- #### Azure Automation
 
 ![architecture overview](https://github.com/MSEndpointMgr/CloudBAM/blob/main/Screenshots/CloudBAMArchitecture.jpg)
 
