@@ -16,11 +16,11 @@ From an architecture point of view, CloudBAM consists of;
 
 ### The solution as a whole has three parts
 
- - BitLockerBackup
+ - BitLockerBackup (Copies recovery IDs and Keys form Azure AD devices to the KeyVault
    - Required to escrow the keys from Azure AD devices into Azure KeyVault.
  - BitLockerBackupPortal (CloudBAM Portal)
    - Optional component to search the archive and abstract access from Azure AD Roles.
- - LogAnalytics Workspace
+ - LogAnalytics Workspace (Dashboard for auditing)
    - A required component if you wish to have the portal, as all logging and auditing is done through LogAnalytics.
 
 ## CloudBAM Portal ##
