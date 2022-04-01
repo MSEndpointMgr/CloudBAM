@@ -22,6 +22,6 @@ Can be complemented by the CloudBAM Portal, but also run as a standalone archiva
     - Call it BitlockerServiceAccount and enter the service account details into username and password
   - Add the Runbook powershell code from this repo to a RunBook using Powershell 5.1
   - Install the modules required by the script
-    - Az.Accounts, Az.KeyVault, MSAL.PS, MSGraphOperation
+    - Az.Accounts, Az.KeyVault, MSAL.PS, MSGraphRequest
   - Setup your desired schedule
   
