@@ -30,7 +30,13 @@ The portal allows the user to search for a specific recovery key and/or search t
 > RBAC is currently only controllable through access to the Enterprise App created by the Function app provisioning.
 
 ![Recovery Key search in the portal](https://github.com/MSEndpointMgr/CloudBAM/blob/main/Screenshots/CloudBAM.jpg)
+
+Admin initiates key recovery request:
+
 ![Recovery Key search in the portal](https://github.com/MSEndpointMgr/CloudBAM/blob/main/Screenshots/CloudBAM2.jpg)
+
+Recovery key is returned:
+
 ![Recovery Key search in the portal](https://github.com/MSEndpointMgr/CloudBAM/blob/main/Screenshots/CloudBAM3.jpg)
 
 ## Reporting ## 
