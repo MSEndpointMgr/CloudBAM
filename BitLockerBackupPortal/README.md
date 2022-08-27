@@ -12,7 +12,7 @@ PErmissions and least privileged stuff is not tightend completely. Use at own ri
   - Configure Azure AD diagnostics settings to send sign-in data to this workspace
   - Add the Workbook from the reports part of this repository
 - Create a new Azure Function App
-  - Call it something unique like fa-<tenantname>-cloudbam
+  - Call it something unique like fa-{yourTenantName}-cloudbam
   - Configure it for PowerShell 5.1 / Windows
   - Add a httpTrigger function and choose develop in portal
     - The name should be BitlockerPortal (unless you want to change the code).
