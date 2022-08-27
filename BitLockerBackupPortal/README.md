@@ -13,8 +13,9 @@ PErmissions and least privileged stuff is not tightend completely. Use at own ri
   - Add the Workbook from the reports part of this repository
 - Create a new Azure Function App
   - Call it something unique like fa-<tenantname>-cloudbam
-  - Configure it for PowerShell 5.1
+  - Configure it for PowerShell 5.1 / Windows
   - Add a httpTrigger function and choose develop in portal
+    - The name should be BitlockerPortal (unless you want to change the code).
     - Go into the new HttpTrigger and ender the "code+test" area and override the powershell code with the run.ps1 code found in the function folder of this repository.
   - Go to the function app authentication blade and enable app service authentication using redirect (Microsoft) and require authentication. 
     - Select all the defaults and let it create the required service principal for you
