@@ -20,6 +20,10 @@ PErmissions and least privileged stuff is not tightend completely. Use at own ri
     - Go into the new HttpTrigger and ender the "code+test" area and override the powershell code with the run.ps1 code found in the function folder of this repository.
   - Go to the function app authentication blade and enable app service authentication using redirect (Microsoft) and require authentication. 
     - Select all the defaults and let it create the required service principal for you
+      - Go to the Azure AD Enterprise application for the service principal
+        - Set the properties to *assignment required* **yes**
+        - Manage portal access via *users and groups*
+        - Add a nice logo if you want people to access it form myApps
   - Enable a system managed identity for the function app
     - assign the Key Vault Secrets User role to the keyvault you setup for the BitLocker Backup automation KeyVault.
     - assign the Owner role for the Log Analytics workspace
