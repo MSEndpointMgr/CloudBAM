@@ -16,6 +16,7 @@ PErmissions and least privileged stuff is not tightend completely. Use at own ri
   - Configure it for PowerShell 5.1 / Windows
   - Add a httpTrigger function and choose develop in portal
     - The name should be BitlockerPortal (unless you want to change the code).
+    -Authorization level should be anonymous since we are using the functions App Registration to controll who has access.
     - Go into the new HttpTrigger and ender the "code+test" area and override the powershell code with the run.ps1 code found in the function folder of this repository.
   - Go to the function app authentication blade and enable app service authentication using redirect (Microsoft) and require authentication. 
     - Select all the defaults and let it create the required service principal for you
