@@ -21,7 +21,7 @@ PErmissions and least privileged stuff is not tightend completely. Use at own ri
   - Go to the function app authentication blade and enable app service authentication using redirect (Microsoft) and require authentication. 
     - Select all the defaults and let it create the required service principal for you
       - Go to the Azure AD Enterprise application for the service principal
-        - Set the properties to *assignment required* **YES* and *visible to users* **NO**
+        - Set the properties to *assignment required* **YES** and *visible to users* **NO**
         - Manage portal access via *users and groups*
         - Add a nice logo if you want
   - Enable a system managed identity for the function app
